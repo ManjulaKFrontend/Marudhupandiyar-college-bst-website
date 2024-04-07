@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=DM+Sans:opsz,wght@9..40,300&family=Kanit&family=Lato:wght@700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=DM+Sans:opsz,wght@9..40,300&family=Kanit&family=Lato:wght@700&family=Oswald:wght@500&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=DM+Sans:opsz,wght@9..40,300&family=Kanit&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&family=Oswald:wght@500&family=Play&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root{
+
+    --slider--p:14px;
+    --nav--link:16px!important;
+    --para:15px !important;
+}
+
+section p{
+    font-size: 17px!important;
+    line-height: 32px;
+}
+/***********
+1. header
+*************/
+
+
+.header {
+
+background-color: maroon!important;
+font-family: "lato"!important;
+
+
+}
+
+.admission-btn{
+    background-color: orange;
+
+   
+
+}
+.admission-btn a{
+    text-decoration: none!important;
+    color:navy;
+    font-size: 10px!important;
+}
+.admission-btn a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.header li {
+    font-size: 15px!important;
+   
+}
+.header li:hover{
+    color: orange!important;
+   transition: 0.5s !important;
+   cursor: pointer!important;
+}
+.social-link span i:hover{
+color: orange!important;
+}
+.navbar{
+
+   background-color:rgb(24,47,99)!important;
+   width: 100%!important;
+   
+
+}
+.nav-link{
+    color: white!important;
+    text-transform: uppercase;
+    
+
+   
+}
+.nav-link:hover{
+    color: orange!important;
+    transition: 0.5s;
+}
+
+
+
+
+.nav-container {
+    background-color:rgb(24,47,99);
+    width: 100%;
+}
+ .nav-container h1,h2{
+    font-family:"oswald";
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 40px!important;
+}
+
+.nav-container h2{
+    font-size: 30px!important;
+}
+nav .nav-link{
+    font-size: var(--nav--link)!important;
+}
+.nav-container p{
+    font-family: "oswald";
+    line-height: 32px;
+    font-size: 20px!important;
+   
+}
+ .home{
+    color: orange!important;
+}
+
+.fa-magnifying-glass{
+    font-size: 30px!important;
+}
+h5{
+    font-weight: 600!important;
+}
+.animation-top{
+    color: navy!important;
+}
+/************
+2.carousel
+************/
+
+#carouselExampleCaptions img{
+height: 100vh!important;
+
+}
+#carouselExampleCaptions h3,h5{
+    font-weight: 600;
+}
+#carouselExampleCaptions p{
+    font-size: var(--slider--p)!important; 
+    font-family: "lato";
+    font-weight: bold!important;
+}
+
+.dis-btn{
+    border : 2px solid rgb(227, 158, 29) !important;
+}
+.dis-btn:hover{
+    background-color: black!important;
+    border: 2px solid black!important;
+    transition: 0.5s!important;
+}
+.con-btn{
+    border: 2px solid rgba(0, 0, 0, 0.825)!important;
+}
+
+.con-btn:hover{
+    background-color: orange!important;
+    border: 2px solid orange!important;
+    transition: 0.5s!important;
+
+}
+
+/****************
+section-one
+****************/
+
+section p{
+    font-family: "lato",sans-serif;
+    font-size: var(--para)!important;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+  
+}
+
+/*********marque animation*********/
+.marquee-animation{
+    
+    background-color: rgba(211, 211, 211, 0.059);
+    position: relative;
+  
+ }
+ .new-img{
+    height: 30px!important;
+    width: 40px!important;
+ }
+ h4{
+     text-align: center;
+     font-size: 20px;
+ }
+
+ 
+ h6{
+     line-height: normal;
+     text-align: center;
+     font-size: 18px;
+ }
+ .nav-link{
+    font-size: 12px!important;
+ }
+ 
+ /***************************
+ section two
+ ****************************/
+.section-two{
+    font-family: "lato" !important;
+    font-weight: bold;
+}
+.chairman h4{
+    font-size: 18px!important;
+}
+
+ section h4{
+    color: maroon;
+    font-weight: bold;
+    font-size:20px;
+    letter-spacing: 0.1px;
+
+ }
+section h1{
+  text-decoration: underline;
+  text-decoration-color: maroon;
+  text-underline-offset: 10px;
+  
+}
+.section-two p{
+    font-weight: lighter;
+}
+.section-two .chairman-img{
+    border-radius: 10px;
+    border: 1px solid grey;
+   
+}
+
+.section-two .blue-box{
+    background-color: rgb(41, 75, 154)!important;
+    
+  margin-top: -20vh;
+  
+
+  
+}
+
+
+
+    
+
+
+
+.blue-box i{
+    color: seagreen;
+}
+/**********************
+3.section-three
+***********************/
+
+
+.section-three h1{
+ color:rgb(24,47,99);
+}
+.t-para{
+    background-color: whitesmoke;
+
+}
+.t-para p{
+    color: rgb(24,47,99);
+}
+.grid-img img{
+    width: 20vw;
+    height: 32vh;
+   border: 2px solid grey;
+   padding: 2px;
+ 
+    
+}
+/*********************grid hover************************/
+#gallery h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color:var(--background-color);
+    text-shadow: 1px 1px 1px black;
+   
+}
+#gallery .card{
+    background-color: var(--background-color);
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gallery h3{
+    font-size: 15px;
+    color: white;
+
+}
+#gallery img{
+    height: 30vh;
+    width: 100%;
+   padding-left: 1px ;
+   padding-right: 1px ;
+   padding-bottom: 1px;
+   padding-top: 1px;
+}
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+   text-align: center;
+
+top: 50%;
+    width: 220px;
+}
+#gallery .card:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s ease;
+}
+
+.overlay i img{
+    background-color: #2e1700;
+    height: 30px;
+    width: 30px;
+    font-size:var(--img-f--) ;
+    padding: 7px;
+    margin: -20%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+/********************
+alumnni
+********************/
+
+.carousel-item{
+    background-color: #25497e!important;
+    border-radius: 10px;
+
+   
+}
+.alumni-feedback p , span{
+    color: white;
+ 
+}
+
+
+.alumni-feedback img{
+    height: 500px!important;
+    width: 200px!important;
+}
+.q-image img {
+    width: 40px!important;
+    height: 60px!important;
+}
+
+
+@media screen and (max-width:576px){
+
+
+    
+    
+}
+/**************
+bottom animation
+*************/
+
+
+.bt-animation img{
+    height: 20vh;
+    width: 20vw;
+   padding: 0px;
+   margin: 10px ;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 whitesmoke;
+   
+}
+/*************
+footer section
+**************/
+
+
+.footer{
+    background-color: rgb(24,47,99)!important;
+}
+
+
+
+  /***********************/
+
